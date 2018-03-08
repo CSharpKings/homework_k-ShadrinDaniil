@@ -6,7 +6,16 @@ namespace от100до200
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int number = 100; number <= 200; number++)
+            {
+                if (number % 7 == 0)
+                {
+                    Console.WriteLine(number);
+                }
+            }
+            Console.ReadLine();
+
+
         }
     }
 }
